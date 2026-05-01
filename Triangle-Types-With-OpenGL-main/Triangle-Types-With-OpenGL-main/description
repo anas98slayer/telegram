@@ -1,0 +1,25 @@
+# OpenGL Triangle Types — Rubayad Hasan
+Student Name: Rubayad Hasan  
+Student ID 0432310005101085
+
+This project is a basic OpenGL rendering program that displays:
+- A **Right-Angled Triangle** in the 1st quadrant (Red)
+- An **Equilateral Triangle** in the 2nd quadrant (Green)
+- An **Isosceles Triangle** in the 3rd quadrant (Blue)
+
+Each triangle is drawn using:
+- Separate **Vertex Buffer Objects (VBOs)**
+- Separate **Vertex Array Objects (VAOs)**
+- A **single shader program** with dynamic color assignment
+
+The background is white, and the rendering uses **OpenGL 3.3 Core Profile** with GLFW and GLAD.
+
+## 🔧 Technologies Used
+- C++
+- OpenGL
+- GLFW
+- GLAD
+
+## 💡 Build Instructions
+Ensure you have GLFW and GLAD set up correctly in your build environment. Use CMake or a Makefile for easier compilation.
+
